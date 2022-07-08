@@ -1,0 +1,31 @@
+@mixin btn-base{
+	padding: 0.5rem 10rem;
+	
+}
+
+$color-header:#202020;
+$color-text:#303030;
+$color-button:white;
+$color-hover:#0075FF;
+
+.btn-main{
+	@include btn-base();
+	
+	color: $color-button;
+	//border: solid 1px $color-text;
+	text-decoration: none;
+	//border-radius:0.5rem;
+	transition: 0.5s;
+	background-color:#00bfbf;
+
+	&:hover{
+		cursor:pointer;
+		color: $color-hover;
+		background-color:#8f8f8f;
+	}
+}
+
+.img{
+	width: 8rem;
+}
+

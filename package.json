@@ -1,0 +1,23 @@
+{
+  "name": "linktree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./js/index.js",
+    "lint":"eslint",
+    "lint-fix":"eslint -fix",
+    "server":"http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}

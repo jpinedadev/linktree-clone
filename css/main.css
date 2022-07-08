@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+.btn-main {
+  padding: 0.5rem 10rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  background-color: #00bfbf;
+}
+.btn-main:hover {
+  cursor: pointer;
+  color: #0075FF;
+  background-color: #8f8f8f;
+}
+
+.img {
+  width: 8rem;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  margin-top: 1rem;
+}
+header img {
+  border-radius: 100%;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0 1rem;
+}
+section ul a {
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+section ul a li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

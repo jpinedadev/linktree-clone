@@ -1,0 +1,35 @@
+@use "components";
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+header{
+	
+	margin-top: 1rem;
+	img{
+		border-radius: 100%;
+	}
+}
+section{
+	
+	ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items:center;
+		padding: 1rem 0;
+		margin: 0 1rem;
+		a{
+			margin-bottom: 1rem;
+			width: 25rem;
+			li{
+			list-style: none;
+			}
+		}
+		
+	}
+}
+footer{
+	
+}
