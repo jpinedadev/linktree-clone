@@ -10,14 +10,14 @@ $color-hover:#0075FF;
 
 .btn-main{
 	@include btn-base();
-	
-	color: $color-button;
-	//border: solid 1px $color-text;
 	text-decoration: none;
-	//border-radius:0.5rem;
 	transition: 0.5s;
-	background-color:#00bfbf;
-
+	background-color:white;
+	border-radius:20px;
+	color:$color-text;
+	width: 50%;
+	opacity: 75%;
+	font-weight: bold;
 	&:hover{
 		cursor:pointer;
 		color: $color-hover;

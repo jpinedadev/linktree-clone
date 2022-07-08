@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 .btn-main {
   padding: 0.5rem 10rem;
-  color: white;
   text-decoration: none;
   transition: 0.5s;
-  background-color: #00bfbf;
+  background-color: white;
+  border-radius: 20px;
+  color: #303030;
+  width: 50%;
+  opacity: 75%;
+  font-weight: bold;
 }
 .btn-main:hover {
   cursor: pointer;
@@ -20,27 +24,73 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-header {
-  margin-top: 1rem;
+body {
+  background-image: url("../assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-header img {
-  border-radius: 100%;
+body #vanta {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
 }
 
-section ul {
+header {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
-  margin: 0 1rem;
 }
-section ul a {
-  margin-bottom: 1rem;
-  width: 25rem;
+header img {
+  border-radius: 100%;
+  border: 2px solid white;
 }
-section ul a li {
-  list-style: none;
+header h2 {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  width: 40%;
+  margin-top: 1rem;
+  opacity: 65%;
+  padding: 0.25rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section a {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 2rem;
+}
+footer span {
+  color: #afafaf;
+  font-weight: bold;
+}
+
+/*Media Querys*/
+@media (min-width: 768px) {
+  body {
+    background-size: cover;
+  }
+  body main header h2 {
+    color: red !important;
+    width: 20%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

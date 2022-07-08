@@ -4,29 +4,58 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>LinkTree Clone</title>
+	<!--Styles-->
 	<link rel="stylesheet" href="css/main.css">
+	<!--JQuery-->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!--Bootstrap-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<body>
-	<main class="container text-center">
+	<!--VantaJs-->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.22/dist/vanta.birds.min.js"></script>
+		<script>
+			window.addEventListener('DOMContentLoaded',()=>{
+				VANTA.BIRDS({
+				  el: "#vanta",
+				 mouseControls: true,
+				  touchControls: true,
+				  gyroControls: false,
+				  minHeight: 200.00,
+				  minWidth: 200.00,
+				  scale: 1.00,
+				  scaleMobile: 1.00,
+				  quantity: 2.00,
+				  backgroundAlpha: 0.00
+				})
+
+			})
+		
+		</script>
+<body >
+	<div id="vanta"></div>
+	<main class="container text-center lead">
 		<header>
 			<img class="img" src="assets/pfp.jpg" alt="pfp">
-			<p>@jpinedadev</p>
+			<h2>@jpinedadev</h2>
 		</header>
 		<section>
-			<ul>
-				<a href="https://www.google.com" class="btn-main"><li >Portfolio</li></a>
-
-				<a href="https://www.google.com" class="btn-main"><li >Github</li></a>
-
-				<a href="https://www.google.com" class="btn-main"><li >Linkedin</li></a>
-
-				<a href="https://www.google.com" class="btn-main"><li >Twitter</li></a>
-				
-			</ul>
+			<a href="https://jpinedadev.github.io/portfolio/" 
+			target="_blank" class="btn-main">Portfolio</a>
+			<a href="https://github.com/jpinedadev" 
+			target="_blank" class="btn-main">Github</a>
+			<a href="https://www.linkedin.com/in/jpinedadev/" 
+			target="_blank" class="btn-main">Linkedin</a>
+			<a href="#" 
+			target="_blank" class="btn-main">Twitter</a>
 		</section>
 		<footer>
-			<img class="img" src="assets/linktree-logo.png" alt="linktree-logo">
+			<span>© 
+					<script>
+						document.write(new Date().getFullYear())
+					</script> 
+					Julio Pineda
+				</span>
 		</footer>
 	</main>
 	
