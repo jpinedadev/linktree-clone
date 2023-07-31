@@ -81,7 +81,7 @@ Estas son las instrucciones para poder instalar y configurar el proyecto en tu o
    ```sh
    npm install
    ```
-4.  Abre la terminal y navega hasta la carpeta coinbase
+4.  Abre la terminal y navega hasta la carpeta linktree-clone
     ```sh
     cd linktree-clone
     ```
