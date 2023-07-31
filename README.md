@@ -83,7 +83,7 @@ Estas son las instrucciones para poder instalar y configurar el proyecto en tu o
    ```
 4.  Abre la terminal y navega hasta la carpeta coinbase
     ```sh
-    cd coinbase
+    cd linktree-clone
     ```
 5.  Ejecuta el siguiente comando
     ```sh
